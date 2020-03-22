@@ -1,0 +1,65 @@
+body{
+color: rgba(51, 135, 173, 0.932);
+background-color: rgba(72, 188, 223, 0.459);
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+  }
+
+  .menu-right{
+      display: flex;
+      justify-content: left;
+  }
+  
+  li {
+    display: flex; 
+  }
+  
+  li a {
+    display: block;
+    color: rgb(66, 169, 201);
+    display: flex;
+    justify-content: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(110, 201, 207);
+  }
+  h1{
+      color: rgb(7, 61, 161);
+      font-family: 'Roboto Mono', monospace;
+      text-align: center;
+  }
+
+  footer{
+      text-align: center;
+  }
+  .bouton a {
+    display:block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    background:url(images/boutonnoir.png) no-repeat;
+    color:white;
+    text-decoration:none; 
+}
+.bouton a {
+    display:block;
+    width:150px;
+    line-height:50px;
+    text-align:center;
+    vertical-align:middle;
+    background:url(images/boutonnoir.png) no-repeat;
+    color:white;
+    text-decoration: goldenrod; 
+}

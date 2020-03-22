@@ -1,0 +1,72 @@
+nav{
+    background-color: #88C1D0;
+    padding: 0.05em;
+    margin:0;
+    
+}
+
+nav ul {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between; 
+    font-size: x-large; 
+    list-style-type: none;
+    margin-left: 2%;
+    margin-right: 2%;
+  
+}
+.navitem a{
+    text-decoration: none;
+    color:#000;
+}
+.navitem a:hover{
+    text-decoration: none;
+    border-bottom: 5px solid #000;
+    color:#000;
+}
+.navbrand{
+    width: 2em;
+    height: 2em;
+}
+
+.navbrand:hover{
+   transform: scale(110%);
+}
+
+header div {
+    display: flex;flex-direction: row; justify-content: center;
+}
+
+header h1{
+    display: flex; justify-content: center; align-items: center; background-image: url(images/team_rocket.png); background-position: center; background-size: cover; color: #FFFF; height: 50vh; width:100%; font-size: 3rem; text-shadow: #0000; margin: 0;
+    animation-name: headerSlideShow;
+    animation-duration: 10s;
+    animation-direction: normal;
+    -moz-animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+section {
+    text-align: center; padding:2%
+}
+footer{
+    display: flex; align-items: center; justify-content: space-around;
+}
+
+
+
+@keyframes headerSlideShow{
+ 
+    25%{
+        background-image: url(images/teamrocket1.jpg);
+
+    }
+    50%{
+
+        background-image: url(images/teamrocket2.jpg);
+    }
+    75%{
+        background-image: url(images/team_rocket.png);
+    }
+}
+

@@ -1,0 +1,14 @@
+.images{
+    background-image: url("images/coucher.jpg");
+    display: flex;width: auto;
+    background-size: cover;
+    background-repeat: no-repeat; height: 100vh;
+}
+.flotte{
+    float: left;
+}
+.h1 {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    float: right;
+}
